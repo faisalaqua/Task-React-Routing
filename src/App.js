@@ -12,6 +12,9 @@ function App() {
     <div>
       <NavBar />
       <Switch>
+        <Route exact path="/ProductItem/:dataSlug">
+          <Detail />
+        </Route>
         <Route exact path="/Productlist">
           <ProductList />
         </Route>
@@ -27,3 +30,5 @@ export default App;
 
 // when exact path for home is "Home" I get an empty page. Why? Even with switch!
 // Attributes from routes = <></>
+
+//Come back to line 15!!!!!!
