@@ -55,4 +55,15 @@
 }
 
 .navBar {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: bisque;
+  height: 100px;
+  padding: 20px;
+  /* justify-content: space-between; */
+  column-gap: 20px;
+}
+
+.navBar img {
+  height: 100px;
 }
